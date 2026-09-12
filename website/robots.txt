@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://berasladori.com/sitemap.xml
+Sitemap: https://www.berasladori.com/sitemap.xml
