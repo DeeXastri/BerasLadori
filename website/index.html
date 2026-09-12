@@ -210,15 +210,17 @@
         </a>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-700">
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
           <a href="#produk" class="hover:text-brand-700 transition">Produk Partai</a>
           <a href="/program/sppg-mbg" class="hover:text-brand-700 transition text-brand-800 flex items-center gap-1">
             <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            Program SPPG MBG
+            SPPG MBG
           </a>
-          <a href="#kalkulator" class="hover:text-brand-700 transition">Kalkulator Tonase</a>
+          <a href="/program/katering-horeka" class="hover:text-brand-700 transition">Katering & Horeka</a>
+          <a href="/program/pesantren" class="hover:text-brand-700 transition">Pesantren (DiHorein)</a>
+          <a href="#kalkulator" class="hover:text-brand-700 transition">Kalkulator</a>
           <a href="#wilayah" class="hover:text-brand-700 transition">Rute Armada</a>
-          <a href="/artikel" class="hover:text-brand-700 transition">Informasi & Berita</a>
+          <a href="/artikel" class="hover:text-brand-700 transition">Artikel</a>
         </nav>
 
         <!-- CTA Button Desktop -->
@@ -230,16 +232,18 @@
         </div>
 
         <!-- Mobile Hamburger Button -->
-        <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-700 hover:text-brand-700 focus:outline-none">
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-700 hover:text-brand-700 focus:outline-none">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
       </div>
     </div>
 
     <!-- Mobile Drawer Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
       <a href="#produk" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Produk Partai</a>
       <a href="/program/sppg-mbg" class="block py-2 text-brand-800 font-semibold">🌾 Program SPPG MBG BGN</a>
+      <a href="/program/katering-horeka" class="block py-2 text-brand-800 font-semibold">👨‍🍳 Katering & Restoran Horeka</a>
+      <a href="/program/pesantren" class="block py-2 text-amber-800 font-semibold">🕌 Pondok Pesantren (Beras DiHorein)</a>
       <a href="#kalkulator" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Kalkulator Kebutuhan Tonase</a>
       <a href="#wilayah" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Jalur Rute Armada</a>
       <a href="/artikel" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Informasi & Berita Beras</a>
@@ -420,10 +424,15 @@
             </div>
           </div>
 
-          <div class="p-6 sm:p-8 pt-0">
+          <div class="p-6 sm:p-8 pt-0 space-y-2">
             <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20pesan%20Beras%20Premium%20Ladori%2025kg%20untuk%20kebutuhan%20Catering%2FRumah%20Makan%2FHotel%2FSPPG%20MBG." target="_blank" class="w-full inline-flex justify-center items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-bold text-sm py-3.5 px-4 rounded-xl shadow-md transition">
               Pesan Beras Ladori (MBG & Horeka)
             </a>
+            <div class="flex justify-center gap-4 text-xs font-semibold text-brand-700 pt-1">
+              <a href="/program/katering-horeka" class="hover:underline">Khusus Katering & Horeka &rarr;</a>
+              <span class="text-slate-300">•</span>
+              <a href="/program/sppg-mbg" class="hover:underline">Khusus Dapur MBG &rarr;</a>
+            </div>
           </div>
         </div>
 
@@ -450,10 +459,13 @@
             </div>
           </div>
 
-          <div class="p-6 sm:p-8 pt-0">
+          <div class="p-6 sm:p-8 pt-0 space-y-2">
             <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20konsultasi%20pasokan%20Beras%20DiHorein%2025kg%20untuk%20dapur%20Pondok%20Pesantren." target="_blank" class="w-full inline-flex justify-center items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm py-3 px-4 rounded-xl shadow-sm transition">
               Konsultasi Pasokan Dapur Pesantren
             </a>
+            <div class="flex justify-center text-xs font-semibold text-amber-800 pt-1">
+              <a href="/program/pesantren" class="hover:underline">Pelajari Khusus Pondok Pesantren & Santri &rarr;</a>
+            </div>
           </div>
         </div>
 
@@ -700,6 +712,8 @@
           <ul class="space-y-2 text-xs">
             <li><a href="/" class="hover:text-white transition">Beranda B2B</a></li>
             <li><a href="/program/sppg-mbg" class="hover:text-white transition text-emerald-400 font-semibold">Program Dapur SPPG MBG</a></li>
+            <li><a href="/program/katering-horeka" class="hover:text-white transition text-emerald-400 font-semibold">Program Katering & Restoran</a></li>
+            <li><a href="/program/pesantren" class="hover:text-white transition text-amber-400 font-semibold">Program Pesantren (DiHorein)</a></li>
             <li><a href="#produk" class="hover:text-white transition">Katalog Produk Partai</a></li>
             <li><a href="#kalkulator" class="hover:text-white transition">Kalkulator Kebutuhan Tonase</a></li>
             <li><a href="/artikel" class="hover:text-white transition">Pusat Informasi & Artikel</a></li>
