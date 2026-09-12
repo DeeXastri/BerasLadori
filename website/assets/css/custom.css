@@ -1,0 +1,58 @@
+/* Custom Styling for DistributorBerasLadori.com */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-emerald: #065f46;
+  --primary-emerald-dark: #064e3b;
+  --accent-gold: #d97706;
+  --accent-gold-hover: #b45309;
+  --bg-slate: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* WhatsApp Floating Pulse */
+@keyframes wa-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.wa-pulse-btn {
+  animation: wa-pulse 2s infinite;
+}
+
+/* Subtle Card Glow */
+.b2b-card-glow {
+  transition: all 0.25s ease-in-out;
+}
+
+.b2b-card-glow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(6, 95, 70, 0.15);
+}
+
+/* Calculator slider styling */
+input[type="range"] {
+  accent-color: #065f46;
+}
+
+/* Print Styling for Quotes & Price Lists */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}

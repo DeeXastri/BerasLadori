@@ -1,0 +1,20 @@
+# Antigravity & AI cache
+.gemini/
+.system_generated/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment & credentials
+.env
+.env.local
+.vercel
+
+# Node modules (if any)
+node_modules/
+
+# OS specific
+Thumbs.db
+.DS_Store
