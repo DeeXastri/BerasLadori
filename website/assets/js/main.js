@@ -6,7 +6,7 @@
 const CONFIG = {
   // Default WhatsApp Business number (dapat diubah sesuai nomor riil Kak Bodro)
   waNumber: "6282227420003",
-  defaultMsg: "Halo Distributor Beras Ladori, saya ingin konsultasi pasokan beras partai besar untuk katering/institusi di Jawa Tengah - DIY."
+  defaultMsg: "Halo Distributor Beras Ladori, saya ingin konsultasi pasokan beras partai besar untuk katering/institusi di area Sleman, Jogja, atau Magelang Raya."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
