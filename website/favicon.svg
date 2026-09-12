@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="50%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#042d19" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bgGrad)"/>
+  <rect x="25" y="25" width="462" height="462" rx="111" fill="none" stroke="#34d399" stroke-width="4" stroke-opacity="0.35"/>
+  <g filter="url(#dropShadow)">
+    <path d="M 112 110 L 182 110 A 10 10 0 0 1 192 120 L 192 334 A 10 10 0 0 0 202 344 L 384 344 A 18 18 0 0 1 402 362 L 402 384 A 18 18 0 0 1 384 402 L 130 402 A 18 18 0 0 1 112 384 Z" fill="#ffffff"/>
+    <!-- Back grain -->
+    <g transform="translate(340, 205) rotate(-18)">
+      <path d="M 0,-68 C 34,-36 34,36 0,68 C -34,36 -34,-36 0,-68 Z" fill="#f59e0b"/>
+      <path d="M -4,-50 C 14,-26 14,26 -4,50 C -18,26 -18,-26 -4,-50 Z" fill="#fde047" opacity="0.7"/>
+    </g>
+    <!-- Front grain -->
+    <g transform="translate(285, 235) rotate(-38)">
+      <path d="M 0,-85 C 42,-44 42,44 0,85 C -42,44 -42,-44 0,-85 Z" fill="url(#goldGrad)"/>
+      <path d="M -5,-65 C 18,-34 18,34 -5,65 C -24,34 -24,-34 -5,-65 Z" fill="#fde047" opacity="0.8"/>
+      <line x1="0" y1="-55" x2="0" y2="55" stroke="#b45309" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    </g>
+  </g>
+</svg>
