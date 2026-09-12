@@ -81,8 +81,9 @@ function initCalculator() {
     if (benefitDisplay) benefitDisplay.textContent = benefit;
 
     if (waCalcBtn) {
-      const text = `Halo Distributor Beras Ladori, saya ingin mengajukan penawaran pasokan beras partai besar:%0A` +
-        `- Estimasi Porsi: ${portions} porsi/hari%0A` +
+      const area = waCalcBtn.getAttribute('data-wilayah') || 'wilayah koridor Magelang-Jogja';
+      const text = `Halo Distributor Beras Ladori, saya ingin mengajukan penawaran pasokan beras di ${area}:%0A` +
+        `- Estimasi Porsi/Kebutuhan: ${portions} porsi/hari%0A` +
         `- Kebutuhan Harian: ~${dailyKg} kg/hari%0A` +
         `- Kebutuhan Mingguan: ~${weeklySacks} karung (25kg)%0A` +
         `- Rekomendasi Pilihan: ${productRec}%0A` +

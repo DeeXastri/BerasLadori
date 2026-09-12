@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Distributor Beras Ladori Muntilan | Gudang Pasokan Pabrik</title>
   <meta name="description" content="Gudang pusat distributor beras Ladori & DiHorein Muntilan (Kompleks RM Pinang Tiga). Pasokan partai besar pabrik toko sembako & katering. Cek harga grosir WA.">
-  <meta name="keywords" content="distributor beras muntilan, gudang beras ladori muntilan, agen beras murah muntilan, kulakan beras 25kg muntilan, supplier beras rm pinang tiga">
+  <meta name="keywords" content="distributor beras muntilan, gudang beras ladori muntilan, agen beras murah muntilan, kulakan beras 25kg muntilan, supplier beras rm pinang tiga, beras watucongol">
   <link rel="canonical" href="https://www.berasladori.com/wilayah/muntilan">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
@@ -66,11 +66,12 @@
   [
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "WholesaleStore",
       "name": "Distributor Beras Ladori Gudang Pusat Muntilan",
+      "alternateName": "Pusat Grosir Beras Ladori & DiHorein Muntilan",
       "url": "https://www.berasladori.com/wilayah/muntilan",
       "image": "https://www.berasladori.com/assets/images/og-image.jpg",
-      "description": "Layanan pasokan beras grosir dan tonase partai besar untuk Kecamatan Muntilan & Koridor Magelang-Jogja.",
+      "description": "Layanan pasokan beras grosir dan tonase partai besar untuk Kecamatan Muntilan & Koridor Magelang-Jogja. Terhubung langsung dengan pabrik.",
       "telephone": "+6282227420003",
       "priceRange": "$$",
       "currenciesAccepted": "IDR",
@@ -90,6 +91,18 @@
         "addressRegion": "Jawa Tengah",
         "postalCode": "56411",
         "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.5818,
+        "longitude": 110.2868
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "24",
+        "bestRating": "5",
+        "worstRating": "1"
       }
     },
     {
@@ -109,6 +122,36 @@
           "item": "https://www.berasladori.com/wilayah/muntilan"
         }
       ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah bisa kulakan langsung ambil beras di gudang Muntilan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bisa. Anda dapat mengambil langsung di Kompleks Gudang RM Pinang Tiga Jl. Magelang-Yogyakarta Muntilan dengan timbang ulang digital di tempat, atau dikirim armada truk langsung ke toko/dapur Anda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa minimal pemesanan beras Ladori bebas ongkir di Muntilan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fasilitas gratis ongkir armada truk berlaku untuk pemesanan minimal 10 karung (bisa campur kemasan 5kg, 10kg, 25kg, atau DiHorein 25kg) untuk seluruh kawasan Muntilan, Dukun, dan Srumbung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah beras DiHorein cocok untuk kebutuhan dapur santri pondok pesantren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sangat cocok. Beras DiHorein dirancang khusus dengan rendemen mekar 1:2.4, tekstur empuk, dan tahan basi lebih dari 20 jam sehingga sangat menghemat anggaran belanja pangan pesantren."
+          }
+        }
+      ]
     }
   ]
   </script>
@@ -116,25 +159,32 @@
 <body class="bg-slate-50 text-slate-800 antialiased font-sans">
 
   <!-- Header -->
-  <header class="bg-white border-b border-slate-200">
-    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-slate-900 font-bold text-base">
         <img src="/favicon.svg" alt="Logo Beras Ladori" class="w-8 h-8 rounded-lg shadow-sm" width="32" height="32">
-        Distributor Beras Ladori Muntilan
+        <span>Distributor Beras Ladori Muntilan</span>
       </a>
-      <a href="/" class="text-xs font-semibold text-brand-700 hover:underline">&larr; Kembali ke Beranda</a>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20kulakan%20di%20Muntilan." class="hidden sm:inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs transition">
+          <span>📱 WA Muntilan</span>
+        </a>
+        <a href="/" class="text-xs font-semibold text-brand-700 hover:underline">&larr; Beranda</a>
+      </div>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 py-12">
+  <main class="max-w-4xl mx-auto px-4 py-10">
     <nav class="text-xs font-semibold text-slate-500 mb-4 space-x-2">
       <a href="/" class="hover:text-brand-700">Beranda</a>
       <span>/</span>
-      <span class="text-brand-700">Gudang Pusat Muntilan</span>
+      <a href="/wilayah/magelang" class="hover:text-brand-700">Magelang</a>
+      <span>/</span>
+      <span class="text-brand-700">Hub Muntilan</span>
     </nav>
 
     <div class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full mb-3">
-      Pusat Pergudangan & Basis Logistik
+      🌾 Urat Nadi Perdagangan Pangan Koridor Magelang – Jogja
     </div>
 
     <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
@@ -142,60 +192,262 @@
     </h1>
 
     <p class="text-base text-slate-600 mt-4 leading-relaxed">
-      Berlokasi strategis di koridor utama Muntilan (Kompleks Gudang RM Pinang Tiga), kami merupakan simpul logistik tangan pertama pabrik untuk penyediaan beras kualitas super dengan harga grosir paling kompetitif. Melayani kulakan langsung ke gudang maupun pengiriman armada ke seluruh pelosok Muntilan dan sekitarnya.
+      Berlokasi strategis di simpul jalur utama Magelang–Yogyakarta (Kompleks Gudang RM Pinang Tiga Muntilan), kami melayani pasokan grosir beras tangan pertama langsung pabrik untuk pedagang sembako Pasar Muntilan, kawasan pertokoan Pecinan Jl. Pemuda, katering hajatan, restoran, serta dapur umum <strong>Pondok Pesantren Darussalam Watucongol</strong>.
     </p>
 
-    <div class="bg-white rounded-2xl border border-slate-200 p-6 my-8 shadow-sm">
-      <h2 class="text-lg font-bold text-slate-900 mb-3">Keuntungan Mengambil Beras di Gudang Muntilan:</h2>
-      <ul class="space-y-3 text-xs sm:text-sm text-slate-700">
-        <li class="flex items-start gap-2">
-          <span class="text-brand-700 font-bold">&check;</span>
-          <span><strong>Harga Tangan Pertama Pabrik:</strong> Tanpa perantara rantai pasok panjang, memberikan margin keuntungan terbaik untuk toko sembako dan katering.</span>
-        </li>
-        <li class="flex items-start gap-2">
-          <span class="text-brand-700 font-bold">&check;</span>
-          <span><strong>Bisa Cek Fisik & Timbang Ulang di Tempat:</strong> Gudang kami dilengkapi timbangan digital presisi tinggi untuk memastikan keaslian bobot 25 kg dan 50 kg.</span>
-        </li>
-        <li class="flex items-start gap-2">
-          <span class="text-brand-700 font-bold">&check;</span>
-          <span><strong>Stok Selalu Tersedia (Ready Stock):</strong> Kapasitas simpan puluhan ton menjamin pasokan tidak pernah putus saat musim pesanan katering memuncak.</span>
-        </li>
-      </ul>
+    <!-- 4 Pilar Muntilan Market -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-emerald-100 text-brand-700 flex items-center justify-center font-bold text-sm mb-2">🏪</div>
+        <h3 class="font-bold text-slate-900 text-sm mb-1">Pasar Muntilan (Sentra Kulakan Terbesar)</h3>
+        <p class="text-xs text-slate-600 leading-relaxed">Menjadi rujukan kulakan beras ribuan pedagang sembako dari Dukun, Srumbung, Sawangan, Salam, hingga Sleman utara. Pasokan tonase stabil dengan margin tebal (8%–12%).</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-emerald-100 text-brand-700 flex items-center justify-center font-bold text-sm mb-2">🏬</div>
+        <h3 class="font-bold text-slate-900 text-sm mb-1">Kawasan Pecinan (Jl. Pemuda & Lettu Sugiarno)</h3>
+        <p class="text-xs text-slate-600 leading-relaxed">Pusat toko grosir legendaris Muntilan. Pasokan karungan 25 kg dan 50 kg terjadwal rutin dengan jaminan segel pabrik utuh dan tukar karung cacat di tempat.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm mb-2">🕌</div>
+        <h3 class="font-bold text-slate-900 text-sm mb-1">Pesantren Watucongol & Asrama Santri</h3>
+        <p class="text-xs text-slate-600 leading-relaxed">Dukungan pangan ribuan santri mukim & jamaah pengajian selapanan Mbah Dalhar. Suplai Beras DiHorein 25kg mekar melimpah, empuk, dan tahan basi >20 jam.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-emerald-100 text-brand-700 flex items-center justify-center font-bold text-sm mb-2">👨‍🍳</div>
+        <h3 class="font-bold text-slate-900 text-sm mb-1">Katering Hajatan & Resto Koridor Arteri</h3>
+        <p class="text-xs text-slate-600 leading-relaxed">Frekuensi pesta pernikahan dan syukuran tinggi di Muntilan. Beras Ladori menjamin nasi pulen wangi alami tanpa kimia, hemat takaran air, dan tidak cepat basi.</p>
+      </div>
     </div>
 
-    <!-- Program Pasokan Sektoral -->
-    <div class="bg-slate-100 rounded-2xl border border-slate-200 p-6 my-8">
-      <h3 class="text-sm font-bold text-slate-900 mb-3">Layanan Program Pasokan Beras di Muntilan & Sekitarnya:</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-        <a href="/program/sppg-mbg" class="bg-white p-3 rounded-xl border border-slate-200 hover:border-brand-500 transition block">
-          <strong class="text-brand-800 block">🌾 Dapur SPPG MBG</strong>
-          <span class="text-slate-500">Standar mutu Bapanas, faktur SPJ resmi & bebas pemutih.</span>
-        </a>
-        <a href="/program/katering-horeka" class="bg-white p-3 rounded-xl border border-slate-200 hover:border-brand-500 transition block">
-          <strong class="text-brand-800 block">👨‍🍳 Katering & Restoran</strong>
-          <span class="text-slate-500">Pulen mekar, tahan basi >24 jam & garansi darurat hari-H.</span>
-        </a>
-        <a href="/program/pesantren" class="bg-white p-3 rounded-xl border border-amber-300 hover:border-amber-500 transition block">
-          <strong class="text-amber-800 block">🕌 Pesantren (DiHorein)</strong>
-          <span class="text-slate-500">Porsi santri melimpah, tahan >20 jam, hemat anggaran.</span>
+    <!-- Dual Brand Strategy Table -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 my-8 shadow-sm">
+      <h2 class="text-lg font-bold text-slate-900 mb-2">Penetrasi Dual-Brand Resmi Pabrik di Muntilan:</h2>
+      <p class="text-xs text-slate-600 mb-4">Kami menyediakan dua lini produk beras dengan diferensiasi segmen yang tepat sasaran:</p>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border border-slate-200 rounded-xl overflow-hidden">
+          <thead class="bg-slate-100 text-slate-700 font-bold">
+            <tr>
+              <th class="p-3 border-b">Parameter</th>
+              <th class="p-3 border-b text-brand-800 bg-emerald-50/70">Beras Premium Ladori</th>
+              <th class="p-3 border-b text-amber-800 bg-amber-50/70">Beras DiHorein</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-slate-700">
+            <tr>
+              <td class="p-3 font-semibold">Kelas Kualitas</td>
+              <td class="p-3 bg-emerald-50/30">Super Premium (5kg, 10kg, 25kg, 50kg)</td>
+              <td class="p-3 bg-amber-50/30">Economic Premium (25kg & 50kg)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Karakteristik Nasi</td>
+              <td class="p-3 bg-emerald-50/30">Super pulen, putih alami, aroma wangi gabah alami</td>
+              <td class="p-3 bg-amber-50/30">Pulen mekar rendemen 1:2.4, tahan basi >20 jam</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Target Utama</td>
+              <td class="p-3 bg-emerald-50/30">Toko sembako modern, katering hajatan, resto, SPPG MBG</td>
+              <td class="p-3 bg-amber-50/30">Pesantren Watucongol, asrama, katering box hemat</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Keuntungan Finansial</td>
+              <td class="p-3 bg-emerald-50/30">Kepuasan pelanggan bintang 5, repeat order tinggi</td>
+              <td class="p-3 bg-amber-50/30">Porsi mengembang banyak, hemat belanja bulanan 20%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Interactive Calculator Widget for Muntilan -->
+    <div class="bg-white rounded-2xl border-2 border-emerald-500/30 p-6 my-8 shadow-sm">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-lg">🧮</span>
+        <h2 class="text-base font-bold text-slate-900">Simulasi Kebutuhan Beras & Porsi Muntilan</h2>
+      </div>
+      <p class="text-xs text-slate-600 mb-5">Hitung takaran beras harian, mingguan, dan karung 25kg yang Anda butuhkan untuk katering, pesantren, atau stok toko di Muntilan:</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-end">
+        <div>
+          <label for="calc-portions" class="block text-xs font-bold text-slate-700 mb-1">
+            Target Porsi / Jumlah Santri / Tamu:
+          </label>
+          <div class="flex items-center gap-3">
+            <input type="range" id="calc-portions" min="100" max="5000" step="50" value="1000" class="w-full accent-brand-700">
+            <span id="calc-portions-val" class="font-extrabold text-brand-800 text-sm w-16 text-right">1.000</span>
+          </div>
+        </div>
+
+        <div>
+          <label for="calc-type" class="block text-xs font-bold text-slate-700 mb-1">
+            Format Kebutuhan Dapur:
+          </label>
+          <select id="calc-type" class="w-full text-xs font-semibold bg-slate-50 border border-slate-300 rounded-lg p-2.5 focus:ring-2 focus:ring-brand-700 outline-none">
+            <option value="mbg">Katering Hajatan / SPPG MBG (100g / porsi)</option>
+            <option value="santri">Pondok Pesantren (3x makan sehari)</option>
+            <option value="horeka">Restoran & Rumah Makan Jalur Wisata</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Hasil Kalkulasi -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-emerald-50/60 p-4 rounded-xl border border-brand-100 my-5 text-center">
+        <div>
+          <div class="text-slate-500 text-[11px] font-semibold">Kebutuhan Harian</div>
+          <div id="calc-daily-kg" class="text-base font-extrabold text-brand-900 mt-0.5">100 kg</div>
+        </div>
+        <div>
+          <div class="text-slate-500 text-[11px] font-semibold">Alokasi Mingguan</div>
+          <div id="calc-weekly-sacks" class="text-base font-extrabold text-brand-900 mt-0.5">28 karung</div>
+        </div>
+        <div>
+          <div class="text-slate-500 text-[11px] font-semibold">Rekomendasi</div>
+          <div id="calc-recommendation" class="text-xs font-extrabold text-brand-800 mt-1">Beras Ladori 25kg</div>
+        </div>
+        <div>
+          <div class="text-slate-500 text-[11px] font-semibold">Keunggulan Utama</div>
+          <div id="calc-benefit" class="text-[11px] font-semibold text-slate-700 mt-1">Pulen & mekar meyakinkan</div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a id="calc-wa-btn" data-wilayah="Kecamatan Muntilan & Koridor Magelang-Jogja" href="#" target="_blank" class="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl text-xs sm:text-sm transition shadow-sm w-full sm:w-auto">
+          <span>📲 Booking Kuota Beras Muntilan via WhatsApp</span>
         </a>
       </div>
     </div>
 
-    <div class="bg-brand-900 text-white p-8 rounded-2xl text-center space-y-4 my-10">
+    <!-- 4 Klaster Jalur Distribusi Logistik Muntilan -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 my-8 shadow-sm">
+      <h2 class="text-lg font-bold text-slate-900 mb-3">Peta Wilayah Rute Distribusi Armada Muntilan:</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <strong class="text-slate-900 block mb-1">📍 Klaster 1 (Pasar & Sentra Bisnis):</strong>
+          Area Pasar Muntilan, pertokoan Jl. Pemuda, Jl. Lettu Sugiarno, Sayangan, dan kawasan Pecinan Muntilan.
+        </div>
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <strong class="text-slate-900 block mb-1">📍 Klaster 2 (Pesantren & Religi):</strong>
+          Kawasan Watucongol (Jl. Kyai Raden Santri), Kompleks Misi Van Lith, dan Seminari Mertoyudan-Muntilan.
+        </div>
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <strong class="text-slate-900 block mb-1">📍 Klaster 3 (Lingkar & Perumahan):</strong>
+          Jalur By-pass Muntilan, Perumahan Nindya Asri, Gunungpring, Pucungrejo, Tamanagung, dan Menayu.
+        </div>
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+          <strong class="text-slate-900 block mb-1">📍 Klaster 4 (Akses Lereng Merapi):</strong>
+          Simpang tiga Dukun - Muntilan, jalan tembus Srumbung, dan jalur logistik armada pasir Merapi.
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Maps Depo Trust Card -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 my-8 shadow-sm">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="bg-emerald-100 text-emerald-800 text-[11px] font-extrabold px-2 py-0.5 rounded">TERVERIFIKASI GOOGLE MAPS</span>
+            <span class="text-amber-500 font-bold text-xs">⭐ 4.7 / 5.0</span>
+          </div>
+          <h3 class="text-base font-bold text-slate-900 mt-1">Depo Gudang Beras Ladori Magelang - Muntilan</h3>
+          <p class="text-xs text-slate-500">Jl. Pangeran Mangkubumi No.9 Cacaban (Kompleks RM Pinang Tiga) &bull; Rute Kirim Harian</p>
+        </div>
+        <a href="https://maps.google.com/?q=BERAS+LADORI+MAGELANG+Jl.+Pangeran+Mangkubumi+No.9+Cacaban+Magelang" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-700 bg-brand-50 hover:bg-brand-100 px-3 py-2 rounded-lg transition">
+          <span>🗺️ Buka Rute Google Maps</span> &rarr;
+        </a>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 text-xs">
+        <div>
+          <span class="text-slate-400 block text-[11px]">Waktu Tempuh</span>
+          <strong class="text-slate-800">15–20 Menit ke Muntilan</strong>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[11px]">Fasilitas Gudang</span>
+          <strong class="text-slate-800">Timbangan Digital Presisi</strong>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[11px]">Jadwal Bongkar</span>
+          <strong class="text-slate-800">Senin - Sabtu (07.30-17.00)</strong>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[11px]">Garansi</span>
+          <strong class="text-emerald-700">Tukar Karung Cacat 100%</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 my-8 shadow-sm">
+      <h2 class="text-lg font-bold text-slate-900 mb-4">Tanya Jawab Seputar Pasokan Beras Muntilan (FAQ)</h2>
+      
+      <div class="space-y-3 text-xs">
+        <div class="border border-slate-200 rounded-xl overflow-hidden">
+          <button type="button" class="faq-accordion-btn w-full p-3.5 text-left font-bold text-slate-800 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition">
+            <span>Apakah bisa kulakan langsung ambil beras di gudang Muntilan?</span>
+            <span class="faq-icon text-slate-400 font-bold transition-transform">&darr;</span>
+          </button>
+          <div class="faq-accordion-content p-3.5 bg-white text-slate-600 border-t border-slate-100 hidden">
+            Bisa. Anda dapat mengambil langsung di Kompleks Gudang RM Pinang Tiga Jl. Magelang-Yogyakarta Muntilan dengan timbang ulang digital di tempat, atau dikirim armada truk langsung ke toko/dapur Anda.
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden">
+          <button type="button" class="faq-accordion-btn w-full p-3.5 text-left font-bold text-slate-800 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition">
+            <span>Berapa minimal pemesanan beras Ladori bebas ongkir di Muntilan?</span>
+            <span class="faq-icon text-slate-400 font-bold transition-transform">&darr;</span>
+          </button>
+          <div class="faq-accordion-content p-3.5 bg-white text-slate-600 border-t border-slate-100 hidden">
+            Fasilitas gratis ongkir armada truk berlaku untuk pemesanan minimal 10 karung (bisa campur kemasan 5kg, 10kg, 25kg, atau DiHorein 25kg) untuk seluruh kawasan Muntilan, Dukun, dan Srumbung.
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden">
+          <button type="button" class="faq-accordion-btn w-full p-3.5 text-left font-bold text-slate-800 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition">
+            <span>Apakah beras DiHorein cocok untuk kebutuhan dapur santri pondok pesantren?</span>
+            <span class="faq-icon text-slate-400 font-bold transition-transform">&darr;</span>
+          </button>
+          <div class="faq-accordion-content p-3.5 bg-white text-slate-600 border-t border-slate-100 hidden">
+            Sangat cocok. Beras DiHorein dirancang khusus dengan rendemen mekar 1:2.4, tekstur empuk, dan tahan basi lebih dari 20 jam sehingga sangat menghemat anggaran belanja pangan santri di pondok pesantren.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-brand-900 text-white p-8 rounded-2xl text-center space-y-4 my-10 shadow-lg">
       <h2 class="text-2xl font-bold">Kunjungi Gudang atau Pesan Kirim Armada</h2>
       <p class="text-xs text-brand-200 max-w-md mx-auto">
-        Silakan hubungi kami untuk konfirmasi ketersediaan stok atau jadwal loading muatan armada ke toko/dapur Anda.
+        Silakan hubungi kami untuk konfirmasi ketersediaan stok atau jadwal loading muatan armada ke toko/dapur Anda di Muntilan.
       </p>
-      <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20kulakan%20beras%20di%20gudang%20Muntilan." target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-7 py-3.5 rounded-xl text-sm transition">
-        Hubungi Admin Gudang Muntilan (WhatsApp)
+      <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20kulakan%20beras%20di%20gudang%20Muntilan." target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-7 py-3.5 rounded-xl text-sm transition shadow-md">
+        <span>Hubungi Admin Gudang Muntilan (WhatsApp)</span>
       </a>
     </div>
   </main>
 
+  <!-- Floating WhatsApp Action Button -->
+  <div class="fixed bottom-5 right-5 z-40">
+    <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20di%20Muntilan%20mau%20konsultasi%20pasokan%20beras." target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-3 rounded-full shadow-2xl transition hover:scale-105">
+      <span class="text-lg">💬</span>
+      <span class="text-xs font-bold hidden sm:inline">Pesan Beras Muntilan</span>
+    </a>
+  </div>
+
   <footer class="bg-slate-900 text-slate-500 text-xs py-8 text-center border-t border-slate-800">
-    <p>&copy; 2026 DistributorBerasLadori.com &bull; Gudang Pusat Muntilan</p>
+    <div class="max-w-4xl mx-auto px-4 space-y-3">
+      <div class="flex flex-wrap justify-center gap-3 text-slate-400">
+        <a href="/wilayah/magelang" class="hover:text-white">Magelang</a> &bull;
+        <a href="/wilayah/muntilan" class="text-emerald-400 font-bold">Muntilan</a> &bull;
+        <a href="/wilayah/sleman" class="hover:text-white">Sleman</a> &bull;
+        <a href="/wilayah/jogja" class="hover:text-white">Jogja</a> &bull;
+        <a href="/wilayah/temanggung" class="hover:text-white">Temanggung</a>
+      </div>
+      <p>&copy; 2026 DistributorBerasLadori.com &bull; Gudang Pusat Muntilan Koridor Magelang-Jogja</p>
+    </div>
   </footer>
 
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

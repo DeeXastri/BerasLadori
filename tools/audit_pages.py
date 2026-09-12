@@ -53,7 +53,7 @@ for path in sorted(html_files):
 
 print('\n' + ('='*50))
 if all_pass:
-    print('ALL 12 PAGES PASSED 100% AUDIT CHECKS!')
+    print(f'ALL {len(html_files)} PAGES PASSED 100% AUDIT CHECKS!')
 else:
     print('SOME PAGES FAILED AUDIT!')
 print('='*50)

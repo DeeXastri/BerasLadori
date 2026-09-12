@@ -41,6 +41,11 @@
 - [Distributor Beras Magelang](https://www.berasladori.com/wilayah/magelang)
 - [Gudang Beras Muntilan](https://www.berasladori.com/wilayah/muntilan)
 - [Distributor Beras Temanggung](https://www.berasladori.com/wilayah/temanggung)
+- [Distributor Beras Mertoyudan Magelang](https://www.berasladori.com/wilayah/mertoyudan)
+- [Distributor Beras Borobudur Magelang](https://www.berasladori.com/wilayah/borobudur)
+- [Distributor Beras Tegalrejo Magelang](https://www.berasladori.com/wilayah/tegalrejo)
+- [Distributor Beras Secang Magelang](https://www.berasladori.com/wilayah/secang)
+- [Distributor Beras Parakan Temanggung](https://www.berasladori.com/wilayah/parakan)
 - [Pusat Edukasi & Artikel Pengadaan Beras](https://www.berasladori.com/artikel)
 
 ---
