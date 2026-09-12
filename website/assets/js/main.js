@@ -54,9 +54,9 @@ function initCalculator() {
     const portions = parseInt(portionsInput.value, 10) || 500;
     portionsDisplay.textContent = portions.toLocaleString('id-ID');
 
-    const type = typeSelect ? typeSelect.value : 'mbg';
-    // Standar porsi: 80 - 85 gram beras mentah per porsi
-    const gramPerPortion = type === 'prasmanan' ? 85 : 80;
+    const type = typeSelect ? typeSelect.value : 'ladori';
+    // Standar porsi: 85 gram beras mentah per porsi
+    const gramPerPortion = type === 'pesantren' ? 80 : 85;
     const dailyKg = Math.ceil((portions * gramPerPortion) / 1000);
     const weeklyKg = dailyKg * 7;
     const weeklySacks = Math.ceil(weeklyKg / 25);
@@ -67,12 +67,12 @@ function initCalculator() {
     let productRec = '';
     let benefit = '';
 
-    if (type === 'prasmanan') {
-      productRec = 'Beras Premium Ladori (25 kg / 50 kg)';
-      benefit = 'Pulen alami, aroma wangi pandan alami, putih bersih tanpa bahan kimia pemutih. Standar tertinggi prasmanan & hajatan.';
+    if (type === 'pesantren') {
+      productRec = 'Beras DiHorein Spesialis Pondok Pesantren (25 kg)';
+      benefit = 'Diformulasikan khusus untuk dapur santri. Rendemen tanak mekar melimpah (1:2.4), mengenyangkan lebih lama, dan hemat biaya anggaran santri.';
     } else {
-      productRec = 'Beras DiHorein Spesialis MBG & Horeka (25 kg)';
-      benefit = 'Rendemen mekar tinggi, tahan basi >20 jam di pemanas/warmer. Sangat hemat modal katering & porsi melimpah.';
+      productRec = 'Beras Premium Ladori (25 kg / 50 kg) - Rekomendasi Resmi SPPG MBG & Horeka';
+      benefit = 'Beras putih bersih mutu premium tanpa pemutih sintetis, pulen lezat, dan tahan lama sesuai rekomendasi standar SPPG MBG, katering, rumah makan, dan hotel.';
     }
 
     if (productRecDisplay) productRecDisplay.textContent = productRec;
