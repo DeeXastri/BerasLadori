@@ -69,30 +69,70 @@
   <link rel="stylesheet" href="/assets/css/custom.css">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Pasokan Beras Khusus Pondok Pesantren & Asrama Santri — Merk DiHorein",
-    "url": "https://www.berasladori.com/program/pesantren",
-    "description": "Layanan pasokan beras rutin partai besar karungan 25kg dan 50kg untuk dapur umum pondok pesantren di kawasan Tegalrejo, Watucongol Muntilan, Payaman, Tembarak Temanggung, Sleman, dan Yogyakarta.",
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pasokan Beras Khusus Pondok Pesantren & Asrama Santri — Merk DiHorein",
+      "url": "https://www.berasladori.com/program/pesantren",
+      "description": "Layanan pasokan beras rutin partai besar karungan 25kg dan 50kg untuk dapur umum pondok pesantren di kawasan Tegalrejo, Watucongol Muntilan, Payaman, Tembarak Temanggung, Sleman, dan Yogyakarta.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://www.berasladori.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pondok Pesantren",
+            "item": "https://www.berasladori.com/program/pesantren"
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Beranda",
-          "item": "https://www.berasladori.com/"
+          "@type": "Question",
+          "name": "Mengapa Beras DiHorein sangat disukai untuk dapur santri pondok pesantren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beras DiHorein memiliki rasio rendemen tanak tinggi (1 : 2.4) yang mekar melimpah saat dimasak dalam dandang besar, tahan basi hingga lebih dari 20 jam di bakul asrama, mengenyangkan santri lebih lama, serta berharga satu tingkat lebih hemat di bawah Ladori."
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Pondok Pesantren",
-          "item": "https://www.berasladori.com/program/pesantren"
+          "@type": "Question",
+          "name": "Bagaimana jadwal rute pengiriman beras ke kawasan pondok pesantren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Armada logistik kami beroperasi setiap hari kerja melayani pengiriman terjadwal langsung ke gudang dapur pesantren di Tegalrejo, Muntilan, Secang/Payaman, Tembarak Temanggung, Sleman, dan Yogyakarta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah yayasan pondok pesantren bisa mendapatkan nota/faktur resmi dan fasilitas tempo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, kami melengkapi setiap pengiriman dengan nota/faktur resmi berbadan hukum dan tanda terima bermeterai. Untuk pesantren mitra dengan pesanan rutin, tersedia skema pembayaran tempo per putaran pasokan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa minimal pemesanan Beras DiHorein untuk fasilitas bebas ongkir armada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pemesanan minimal 10 karung (250 kg) pada jalur rute reguler harian koridor Magelang, Temanggung, dan Sleman sudah mendapatkan fasilitas bebas biaya kirim (gratis ongkir) sampai ke depan pintu dapur pondok."
+          }
         }
       ]
     }
-  }
+  ]
   </script>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased font-sans">
@@ -306,6 +346,133 @@
     </div>
   </section>
 
+  <!-- Interactive Kalkulator Kebutuhan Beras Pesantren -->
+  <section id="kalkulator-pesantren" class="py-16 bg-slate-900 text-white border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold tracking-widest text-amber-500 uppercase block mb-2">Simulasi Anggaran Dapur Asrama</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Kalkulator Kebutuhan Beras Santri (DiHorein)</h2>
+        <p class="text-slate-400 mt-2 text-xs sm:text-sm">Hitung estimasi kebutuhan tonase bulanan dan jumlah karung 25 kg / 50 kg untuk dapur pondok pesantren Anda.</p>
+      </div>
+
+      <div class="bg-slate-800 rounded-3xl p-6 sm:p-10 border border-slate-700 shadow-2xl space-y-6">
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Jumlah Santri yang Menginap di Asrama:</label>
+          <div class="flex items-center gap-3">
+            <input type="number" id="pesantren-santri" value="500" min="50" max="5000" step="50" class="w-full bg-slate-900 border border-slate-600 rounded-xl px-4 py-3 text-white font-bold text-lg focus:outline-none focus:border-amber-500">
+            <span class="text-xs text-slate-400 shrink-0 font-medium">Santri</span>
+          </div>
+          <span class="text-[11px] text-slate-400 mt-1 block">Simulasi konsumsi 3x makan sehari untuk <strong id="pesantren-santri-val" class="text-amber-400">500</strong> santri</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-slate-700">
+          <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-700/80">
+            <span class="text-xs text-slate-400 block mb-1">Kebutuhan Harian:</span>
+            <span id="pesantren-daily-kg" class="text-xl font-black text-white">120 kg / hari</span>
+            <span class="text-[11px] text-slate-400 block mt-1">Ditanak per waktu makan</span>
+          </div>
+
+          <div class="bg-slate-900/80 p-4 rounded-2xl border border-amber-500/40">
+            <span class="text-xs text-slate-400 block mb-1">Estimasi Kebutuhan Bulanan:</span>
+            <span id="pesantren-monthly-kg" class="text-xl font-black text-amber-400">3.6 Ton / bulan</span>
+            <span class="text-[11px] text-slate-400 block mt-1">Siklus belanja per 30 hari</span>
+          </div>
+
+          <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-700/80">
+            <span class="text-xs text-slate-400 block mb-1">Alokasi Karung Beras:</span>
+            <span id="pesantren-sacks-25" class="text-base font-bold text-white block">144 sak (25 kg)</span>
+            <span class="text-xs text-slate-400">atau <strong id="pesantren-sacks-50" class="text-white">72 sak (50 kg)</strong></span>
+          </div>
+        </div>
+
+        <div class="pt-2">
+          <a id="pesantren-calc-wa-btn" href="#" target="_blank" class="w-full inline-flex justify-center items-center gap-3 bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-6 rounded-xl text-base shadow-lg transition">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            Kirim Rincian Simulasi Pesantren via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Accordion Section -->
+  <section class="py-16 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-xs font-bold text-amber-700 uppercase tracking-wider block">Pertanyaan Umum Pengurus Pondok</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">FAQ Pasokan Beras Pondok Pesantren</h2>
+      </div>
+
+      <div class="space-y-4">
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-amber-700 transition">
+            <span>Mengapa Beras DiHorein sangat disukai untuk dapur santri pondok pesantren?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Beras DiHorein dirancang dengan karakteristik rendemen tanak melimpah (1 : 2.4), mengembang mekar sempurna saat ditanak di kukusan dandang besar, tahan basi lebih dari 20 jam di bakul asrama, dan padat mengenyangkan sehingga santri bertenaga untuk mengaji seharian, dengan tingkat harga yang sangat ekonomis bagi kas yayasan pondok.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-amber-700 transition">
+            <span>Bagaimana jadwal rute pengiriman beras ke kawasan pondok pesantren?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Armada logistik kami memiliki jadwal rute tetap setiap hari kerja ke sentra pesantren besar: jalur Tegalrejo, Muntilan (Watucongol), Secang/Payaman, jalur Tembarak & Menggoro Temanggung, serta Sleman dan Yogyakarta. Beras diantar langsung sampai ke dalam gudang dapur pondok Anda.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-amber-700 transition">
+            <span>Apakah yayasan pondok pesantren bisa mendapatkan nota/faktur resmi dan fasilitas tempo?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Ya, kami adalah distributor berbadan hukum resmi dengan NIB dan NPWP lengkap. Setiap pengiriman disertai surat jalan timbangan digital akurat dan nota bermeterai. Untuk pesantren mitra yang berlangganan rutin, tersedia opsi pembayaran tempo per siklus kirim pasokan.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-amber-700 transition">
+            <span>Berapa minimal pemesanan Beras DiHorein untuk fasilitas bebas ongkir armada?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Pemesanan minimal 10 karung (250 kg) pada koridor rute reguler harian kami sudah mendapatkan fasilitas bebas ongkos kirim (gratis ongkir) dengan tenaga bongkar muat sampai ke gudang pondok.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps Trust Card -->
+  <section class="py-12 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="space-y-2 text-center sm:text-left">
+          <div class="inline-flex items-center gap-1 bg-amber-100 text-amber-800 text-xs font-bold px-2.5 py-0.5 rounded-full">
+            <span>⭐ 4.7 Google Maps</span>
+            <span class="text-slate-500">• Terverifikasi Resmi</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900">Depo Logistik Beras Ladori & DiHorein Magelang</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Jl. Pangeran Mangkubumi No.9, Cacaban, Kec. Magelang Tengah, Kota Magelang (Kompleks Gudang RM Pinang Tiga).<br>
+            Buka Setiap Hari: 07.00 – 17.00 WIB &bull; Siap melayani kunjungan pengurus yayasan maupun pasokan armada truk.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0 w-full sm:w-auto">
+          <a href="https://maps.google.com/?q=BERAS+LADORI+MAGELANG+Jl.+Pangeran+Mangkubumi+No.9+Cacaban+Magelang" target="_blank" class="inline-flex justify-center items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-5 py-3 rounded-xl transition">
+            <svg class="w-4 h-4 fill-current text-red-500" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Petunjuk Arah Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Pilihan Kemasan & CTA Pemesanan Pesantren -->
   <section class="py-16 bg-slate-900 text-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
@@ -374,10 +541,19 @@
     </div>
   </section>
 
+  <!-- Floating WhatsApp CTA Button -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20DiHorein%2C%20saya%20pengurus%20pesantren%20ingin%20tanya%20harga%20pasokan." target="_blank" class="wa-pulse-btn flex items-center gap-3 bg-amber-600 hover:bg-amber-700 text-white px-5 py-3.5 rounded-full font-bold shadow-2xl transition transform hover:scale-105">
+      <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+      <span class="text-sm">Konsultasi Pesantren (WA)</span>
+    </a>
+  </div>
+
   <!-- Footer -->
   <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 text-center">
     <p>&copy; 2026 DistributorBerasLadori.com &bull; Pasokan Khusus Pondok Pesantren & Asrama Koridor Jogja, Sleman & Magelang Raya</p>
   </footer>
 
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
