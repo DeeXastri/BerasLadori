@@ -109,6 +109,26 @@
         "postalCode": "56411",
         "addressCountry": "ID"
       },
+      "subOrganization": {
+        "@type": "LocalBusiness",
+        "name": "BERAS LADORI MAGELANG",
+        "url": "https://www.berasladori.com/wilayah/magelang",
+        "telephone": "+6282227420003",
+        "hasMap": "https://maps.google.com/?q=BERAS+LADORI+MAGELANG+Jl.+Pangeran+Mangkubumi+No.9+Cacaban+Magelang",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Pangeran Mangkubumi No.9, Cacaban",
+          "addressLocality": "Magelang Tengah, Kota Magelang",
+          "addressRegion": "Jawa Tengah",
+          "postalCode": "56121",
+          "addressCountry": "ID"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "reviewCount": "3"
+        }
+      },
       "areaServed": [
         {"@type": "AdministrativeArea", "name": "Kabupaten Sleman"},
         {"@type": "AdministrativeArea", "name": "Kota Yogyakarta"},
@@ -541,13 +561,16 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
         <!-- Wilayah 1: Magelang -->
-        <a href="/wilayah/magelang" class="bg-slate-50 hover:bg-emerald-50/50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition text-center group">
+        <a href="/wilayah/magelang" class="bg-slate-50 hover:bg-emerald-50/50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition text-center group relative">
+          <div class="inline-flex items-center gap-1 bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded-full mb-2">
+            ⭐ 4.7 Google Maps
+          </div>
           <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-800 font-bold flex items-center justify-center mx-auto mb-3 text-lg group-hover:scale-110 transition">
             MG
           </div>
           <h3 class="font-bold text-slate-900 group-hover:text-brand-700 text-base">Magelang</h3>
-          <p class="text-xs text-slate-500 mt-1">Kota & Kabupaten Magelang (Mertoyudan, Borobudur, Secang)</p>
-          <span class="text-xs text-brand-700 font-semibold mt-3 inline-block">Lihat Info Wilayah &rarr;</span>
+          <p class="text-xs text-slate-500 mt-1">Gudang Cacaban & Distribusi Seluruh Wilayah Magelang Raya</p>
+          <span class="text-xs text-brand-700 font-semibold mt-3 inline-block">Lihat Info & Peta Lokasi &rarr;</span>
         </a>
 
         <!-- Wilayah 2: Muntilan -->
@@ -660,8 +683,14 @@
           <p class="text-xs text-slate-400 leading-relaxed">
             Pusat pasokan beras grosir dan partai besar tangan pertama pabrik untuk wilayah Sleman, Yogyakarta, Magelang, Muntilan, dan Temanggung.
           </p>
-          <div class="text-xs text-slate-300">
-            <strong>Gudang Utama:</strong> Kompleks RM Pinang Tiga, Jl. Magelang - Yogyakarta, Muntilan, Jawa Tengah.
+          <div class="text-xs text-slate-300 space-y-1.5">
+            <div><strong class="text-white">Gudang Utama:</strong> Kompleks RM Pinang Tiga, Jl. Magelang - Yogyakarta, Muntilan.</div>
+            <div>
+              <strong class="text-white">Gudang Magelang:</strong> Jl. Pangeran Mangkubumi No.9, Cacaban.
+              <a href="https://maps.google.com/?q=BERAS+LADORI+MAGELANG+Jl.+Pangeran+Mangkubumi+No.9+Cacaban+Magelang" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-semibold block sm:inline sm:ml-1">
+                ⭐ 4.7 Google Maps &rarr;
+              </a>
+            </div>
           </div>
         </div>
 
