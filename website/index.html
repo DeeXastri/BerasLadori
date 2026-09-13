@@ -82,7 +82,7 @@
       "alternateName": ["Distributor Beras Ladori", "Beras Ladori B2B", "BerasLadori.com"],
       "url": "https://www.berasladori.com/",
       "logo": "https://www.berasladori.com/assets/images/android-chrome-512x512.png",
-      "image": "https://www.berasladori.com/assets/images/og-image.jpg",
+      "image": "https://www.berasladori.com/assets/images/beras-ladori.webp",
       "description": "Distributor Beras Ladori untuk catering, hotel, rumah makan, pesantren, SPPG MBG, rumah sakit dan toko dengan armada rute terpadu Sleman, Jogja, Muntilan, Magelang, dan Temanggung.",
       "telephone": "+6282227420003",
       "priceRange": "$$",
@@ -142,7 +142,10 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Beras Premium Ladori 25 kg",
-      "image": "https://www.berasladori.com/assets/images/og-image.jpg",
+      "image": [
+        "https://www.berasladori.com/assets/images/beras-ladori.webp",
+        "https://www.berasladori.com/assets/images/og-image.jpg"
+      ],
       "description": "Beras putih bersih mutu premium tanpa pemutih sintetis, pulen lezat dan tahan lama. Rekomendasi resmi untuk Catering, Rumah Makan, Hotel, dan Dapur SPPG Makan Bergizi Gratis (MBG).",
       "sku": "LADORI-25KG",
       "brand": {"@type": "Brand", "name": "Ladori"},
@@ -187,6 +190,22 @@
       "alternateName": ["Distributor Beras Ladori", "BerasLadori.com"],
       "url": "https://www.berasladori.com/",
       "description": "Distributor Beras Ladori untuk catering, hotel, rumah makan, pesantren, SPPG MBG, rumah sakit dan toko di Jogja, Sleman, Magelang, Muntilan & Temanggung."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://www.berasladori.com/#webpage",
+      "url": "https://www.berasladori.com/",
+      "name": "Beras Ladori | Distributor Beras B2B Jogja, Sleman, Magelang",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://www.berasladori.com/#primaryimage",
+        "url": "https://www.berasladori.com/assets/images/beras-ladori.webp",
+        "contentUrl": "https://www.berasladori.com/assets/images/beras-ladori.webp",
+        "width": 1122,
+        "height": 1402,
+        "caption": "Kemasan resmi Beras Premium Ladori 5 kg dengan izin Kementan RI PD 52.00.33 - 07/16"
+      }
     }
   ]
   </script>
@@ -313,12 +332,32 @@
 
         <!-- Right Hero Visual Card -->
         <div class="lg:col-span-5">
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-xl border border-slate-200/80 relative">
+          <div class="bg-white rounded-2xl p-6 sm:p-7 shadow-xl border border-slate-200/80 relative">
             <div class="absolute -top-3.5 right-6 bg-gold-600 text-white text-xs font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
               Rekomendasi Dapur MBG & Katering
             </div>
+
+            <!-- Packshot Kemasan Resmi Beras Ladori (Image SEO & Google Lens Optimized) -->
+            <div class="relative mb-5 overflow-hidden rounded-xl bg-gradient-to-b from-amber-50/60 via-emerald-50/40 to-slate-50 p-4 border border-slate-100 flex flex-col items-center justify-center">
+              <picture>
+                <source srcset="/assets/images/beras-ladori.webp 1122w, /assets/images/beras-ladori-600.webp 600w" sizes="(max-width: 640px) 240px, 280px" type="image/webp">
+                <img src="/assets/images/beras-ladori.png" 
+                     alt="Kemasan resmi Beras Premium Ladori 5 kg dengan izin Kementan RI PD 52.00.33-07/16, beras pulen alami tanpa pemutih dan tanpa pewangi" 
+                     width="1122" 
+                     height="1402" 
+                     fetchpriority="high" 
+                     loading="eager" 
+                     decoding="async" 
+                     class="h-52 sm:h-60 w-auto object-contain drop-shadow-xl hover:scale-105 transition-transform duration-300">
+              </picture>
+              <div class="mt-2.5 text-center">
+                <span class="inline-block bg-white/95 text-brand-900 text-[11px] font-bold px-3 py-0.5 rounded-full border border-brand-200 shadow-xs">
+                  🌾 Kemasan Resmi LaDORi® Sahabat Sejati • Izin Kementan RI
+                </span>
+              </div>
+            </div>
             
-            <h3 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4">
+            <h3 class="text-base font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4">
               Ringkasan Pasokan Partai Langsung Gudang
             </h3>
 
@@ -407,10 +446,24 @@
         
         <!-- Product 1: Ladori Premium (Rekomendasi Utama SPPG MBG, Catering, RM, Hotel) -->
         <div class="bg-gradient-to-b from-emerald-50/60 to-white rounded-2xl border-2 border-brand-600 overflow-hidden shadow-lg flex flex-col justify-between relative">
-          <div class="absolute top-0 right-0 bg-brand-700 text-white text-[11px] font-extrabold uppercase px-3.5 py-1.5 rounded-bl-xl shadow-sm tracking-wide">
+          <div class="absolute top-0 right-0 bg-brand-700 text-white text-[11px] font-extrabold uppercase px-3.5 py-1.5 rounded-bl-xl shadow-sm tracking-wide z-10">
             ★ Rekomendasi SPPG MBG & Horeka
           </div>
           <div class="p-6 sm:p-8">
+            <!-- Packshot Image Container -->
+            <div class="w-full h-48 sm:h-52 bg-white rounded-xl border border-emerald-100/80 flex items-center justify-center p-3 mb-5 shadow-xs">
+              <picture>
+                <source srcset="/assets/images/beras-ladori-600.webp" type="image/webp">
+                <img src="/assets/images/beras-ladori.png" 
+                     alt="Packshot resmi Beras Premium Ladori kemasan karung pabrik untuk katering dan dapur gizi" 
+                     width="600" 
+                     height="749" 
+                     loading="lazy" 
+                     decoding="async" 
+                     class="h-full w-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300">
+              </picture>
+            </div>
+
             <div class="inline-block bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
               Putih Bersih • Kualitas Premium • Tahan Lama
             </div>

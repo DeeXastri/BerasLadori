@@ -4,15 +4,22 @@ import time
 
 urls = [
     'https://www.berasladori.com/',
-    'https://www.berasladori.com/produk/beras-ladori-25kg',
-    'https://www.berasladori.com/tentang/beras-ladori',
-    'https://www.berasladori.com/wilayah/magelang',
+    'https://www.berasladori.com/tools/kalkulator-kebutuhan-beras',
     'https://www.berasladori.com/artikel',
-    'https://www.berasladori.com/artikel/cara-memilih-supplier-beras-b2b',
-    'https://www.berasladori.com/artikel/cara-menghitung-cooking-yield-beras',
-    'https://www.berasladori.com/artikel/sop-penerimaan-beras-dapur-b2b',
-    'https://www.berasladori.com/artikel/memilih-supplier-beras-untuk-sppg-mbg',
-    'https://www.berasladori.com/artikel/koridor-pasokan-beras-muntilan-magelang-sleman-jogja',
+    'https://www.berasladori.com/artikel/1-kg-beras-berapa-porsi',
+    'https://www.berasladori.com/artikel/kadar-air-beras',
+    'https://www.berasladori.com/artikel/beras-kepala-beras-patah-menir',
+    'https://www.berasladori.com/artikel/rendemen-beras',
+    'https://www.berasladori.com/artikel/beras-untuk-catering',
+    'https://www.berasladori.com/artikel/beras-berkutu-masih-bisa-dimakan',
+    'https://www.berasladori.com/artikel/takaran-air-untuk-1-kg-beras',
+    'https://www.berasladori.com/artikel/beras-premium-vs-medium',
+    'https://www.berasladori.com/artikel/kenapa-harga-beras-berbeda',
+    'https://www.berasladori.com/artikel/cara-menghitung-harga-beras-per-porsi',
+    'https://www.berasladori.com/artikel/cara-menghitung-stok-beras-sebulan',
+    'https://www.berasladori.com/artikel/cara-membaca-label-kemasan-beras',
+    'https://www.berasladori.com/artikel/cara-menyimpan-beras-25-kg',
+    'https://www.berasladori.com/artikel/cara-memilih-beras-yang-bagus',
     'https://www.berasladori.com/sitemap.xml'
 ]
 
@@ -23,9 +30,10 @@ for url in urls:
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = resp.read().decode('utf-8')
             if 'sitemap.xml' in url:
-                has_subpage = 'produk/beras-ladori-25kg' in data
-                total_urls = len(re.findall(r'<loc>', data))
-                print(f"[200 OK] {url} -> Total URLs: {total_urls} (Hanya homepage? {not has_subpage})")
+                active_locs = re.findall(r'<loc>(.*?)</loc>', data)
+                total_urls = len(active_locs)
+                only_home = (total_urls == 1 and active_locs[0] == 'https://www.berasladori.com/')
+                print(f"[200 OK] {url} -> Total URLs: {total_urls} (Hanya homepage? {only_home})")
             else:
                 m = re.search(r'<meta\s+name=["\']robots["\']\s+content=["\'](.*?)["\']', data)
                 robots_val = m.group(1) if m else 'NOT FOUND'
