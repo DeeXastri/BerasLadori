@@ -332,73 +332,65 @@
 
         <!-- Right Hero Visual Card -->
         <div class="lg:col-span-5">
-          <div class="bg-white rounded-2xl p-6 sm:p-7 shadow-xl border border-slate-200/80 relative">
-            <div class="absolute -top-3.5 right-6 bg-gold-600 text-white text-xs font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-xl border border-slate-200/80 relative">
+            <div class="absolute -top-3.5 right-6 bg-gold-600 text-white text-xs font-extrabold uppercase px-3 py-1 rounded-full shadow-sm z-10">
               Rekomendasi Dapur MBG & Katering
             </div>
 
-            <!-- Packshot Kemasan Resmi Beras Ladori (Image SEO & Google Lens Optimized) -->
-            <div class="relative mb-5 overflow-hidden rounded-xl bg-gradient-to-b from-amber-50/60 via-emerald-50/40 to-slate-50 p-4 border border-slate-100 flex flex-col items-center justify-center">
-              <picture>
-                <source srcset="/assets/images/beras-ladori.webp 1122w, /assets/images/beras-ladori-600.webp 600w" sizes="(max-width: 640px) 240px, 280px" type="image/webp">
-                <img src="/assets/images/beras-ladori.png" 
-                     alt="Kemasan resmi Beras Premium Ladori 5 kg dengan izin Kementan RI PD 52.00.33-07/16, beras pulen alami tanpa pemutih dan tanpa pewangi" 
-                     width="1122" 
-                     height="1402" 
-                     fetchpriority="high" 
-                     loading="eager" 
-                     decoding="async" 
-                     class="h-52 sm:h-60 w-auto object-contain drop-shadow-xl hover:scale-105 transition-transform duration-300">
-              </picture>
-              <div class="mt-2.5 text-center">
-                <span class="inline-block bg-white/95 text-brand-900 text-[11px] font-bold px-3 py-0.5 rounded-full border border-brand-200 shadow-xs">
-                  🌾 Kemasan Resmi LaDORi® Sahabat Sejati • Izin Kementan RI
+            <div class="grid grid-cols-1 sm:grid-cols-12 gap-4 items-center pt-1 mb-4">
+              <!-- Left: Packshot Photo Column -->
+              <div class="sm:col-span-5 flex flex-col items-center justify-center bg-gradient-to-b from-amber-50/70 via-emerald-50/40 to-slate-50 rounded-xl p-3 border border-slate-100 overflow-hidden">
+                <picture class="w-full flex items-center justify-center overflow-hidden">
+                  <source srcset="/assets/images/beras-ladori-600.webp" type="image/webp">
+                  <img src="/assets/images/beras-ladori-600.webp" 
+                       alt="Kemasan resmi Beras Premium Ladori 5 kg dengan izin Kementan RI PD 52.00.33-07/16" 
+                       width="600" 
+                       height="749" 
+                       fetchpriority="high" 
+                       loading="eager" 
+                       decoding="async" 
+                       class="w-auto object-contain drop-shadow-md transition-transform duration-300 hover:scale-105"
+                       style="max-height: 185px; max-width: 100%; width: auto; height: auto; object-fit: contain;">
+                </picture>
+                <span class="mt-2 text-[10px] font-bold text-slate-700 bg-white/95 px-2 py-0.5 rounded border border-slate-200 text-center block w-full truncate">
+                  LaDORi® Sahabat Sejati
                 </span>
               </div>
-            </div>
-            
-            <h3 class="text-base font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4">
-              Ringkasan Pasokan Partai Langsung Gudang
-            </h3>
 
-            <div class="space-y-4">
-              <div class="flex items-start gap-3.5">
-                <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">
-                  01
+              <!-- Right: 3 Key Supply Points -->
+              <div class="sm:col-span-7 space-y-2">
+                <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                  <div class="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <span class="w-5 h-5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold flex items-center justify-center shrink-0">01</span>
+                    Beras Premium Ladori
+                  </div>
+                  <p class="text-[11px] text-slate-600 mt-0.5 leading-snug">Putih bersih mutu premium, pulen lezat & tahan lama. Karung 25 & 50 kg.</p>
                 </div>
-                <div>
-                  <h4 class="text-sm font-bold text-slate-900">Beras Premium Ladori 25 kg & 50 kg</h4>
-                  <p class="text-xs text-slate-600 mt-0.5">Beras putih bersih mutu premium, pulen lezat & tahan lama. Standar resmi Catering, Rumah Makan, Hotel, & SPPG MBG.</p>
-                </div>
-              </div>
 
-              <div class="flex items-start gap-3.5">
-                <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">
-                  02
+                <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                  <div class="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <span class="w-5 h-5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold flex items-center justify-center shrink-0">02</span>
+                    Beras DiHorein Pesantren
+                  </div>
+                  <p class="text-[11px] text-slate-600 mt-0.5 leading-snug">Rendemen mekar 1:2.4, hemat anggaran makan santri.</p>
                 </div>
-                <div>
-                  <h4 class="text-sm font-bold text-slate-900">Beras DiHorein 25 kg (Khusus Pesantren)</h4>
-                  <p class="text-xs text-slate-600 mt-0.5">Rendemen mekar 1:2.4, kenyang lebih lama. Menghemat anggaran belanja beras makan santri pondok pesantren.</p>
-                </div>
-              </div>
 
-              <div class="flex items-start gap-3.5">
-                <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">
-                  03
-                </div>
-                <div>
-                  <h4 class="text-sm font-bold text-slate-900">Armada Truk Pengiriman Rutin</h4>
-                  <p class="text-xs text-slate-600 mt-0.5">Jalur rute harian: Sleman, Jogja Kota, Muntilan, Magelang, & Temanggung. Gratis ongkir sesuai kuota.</p>
+                <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                  <div class="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <span class="w-5 h-5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold flex items-center justify-center shrink-0">03</span>
+                    Armada Rute Harian
+                  </div>
+                  <p class="text-[11px] text-slate-600 mt-0.5 leading-snug">Sleman, Jogja, Muntilan, Magelang & Temanggung.</p>
                 </div>
               </div>
             </div>
 
-            <div class="mt-6 pt-5 border-t border-slate-100 bg-slate-50 -mx-6 -mb-6 sm:-mx-8 sm:-mb-8 p-5 rounded-b-2xl flex items-center justify-between">
+            <div class="pt-3.5 border-t border-slate-100 bg-slate-50 -mx-5 -mb-5 sm:-mx-6 sm:-mb-6 p-4 rounded-b-2xl flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-500 block">Kapasitas Pasokan Mingguan</span>
-                <span class="text-base font-extrabold text-slate-900">50+ Ton Terkelola</span>
+                <span class="text-[11px] text-slate-500 block">Kapasitas Pasokan Mingguan</span>
+                <span class="text-sm sm:text-base font-extrabold text-slate-900">50+ Ton Terkelola</span>
               </div>
-              <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20cek%20stok%20gudang%20minggu%20ini." target="_blank" class="bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+              <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20cek%20stok%20gudang%20minggu%20ini." target="_blank" class="bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition shadow-sm">
                 Cek Stok Gudang
               </a>
             </div>
@@ -450,18 +442,22 @@
             ★ Rekomendasi SPPG MBG & Horeka
           </div>
           <div class="p-6 sm:p-8">
-            <!-- Packshot Image Container -->
-            <div class="w-full h-48 sm:h-52 bg-white rounded-xl border border-emerald-100/80 flex items-center justify-center p-3 mb-5 shadow-xs">
-              <picture>
+            <!-- Packshot Image Container (Anti-Overflow & Bulletproof Max-Height) -->
+            <div class="relative w-full h-48 bg-gradient-to-b from-amber-50/50 via-emerald-50/30 to-slate-50 rounded-xl border border-emerald-100/90 p-3 mb-5 flex items-center justify-center overflow-hidden">
+              <picture class="w-full h-full flex items-center justify-center overflow-hidden">
                 <source srcset="/assets/images/beras-ladori-600.webp" type="image/webp">
-                <img src="/assets/images/beras-ladori.png" 
-                     alt="Packshot resmi Beras Premium Ladori kemasan karung pabrik untuk katering dan dapur gizi" 
+                <img src="/assets/images/beras-ladori-600.webp" 
+                     alt="Kemasan resmi Beras Premium Ladori 5 kg dan 25 kg untuk katering dan dapur gizi" 
                      width="600" 
                      height="749" 
                      loading="lazy" 
                      decoding="async" 
-                     class="h-full w-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300">
+                     class="w-auto object-contain drop-shadow-md transition-transform duration-300 hover:scale-105"
+                     style="max-height: 160px; max-width: 100%; width: auto; height: auto; object-fit: contain;">
               </picture>
+              <span class="absolute bottom-2 right-2 bg-white/95 backdrop-blur-sm text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded border border-slate-200 shadow-xs">
+                LaDORi® 5 kg & 25 kg
+              </span>
             </div>
 
             <div class="inline-block bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
@@ -495,10 +491,23 @@
 
         <!-- Product 2: DiHorein Khusus Pondok Pesantren -->
         <div class="bg-slate-50 rounded-2xl border border-amber-300 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between relative">
-          <div class="absolute top-0 right-0 bg-amber-600 text-white text-[11px] font-bold uppercase px-3.5 py-1.5 rounded-bl-xl shadow-sm tracking-wide">
+          <div class="absolute top-0 right-0 bg-amber-600 text-white text-[11px] font-bold uppercase px-3.5 py-1.5 rounded-bl-xl shadow-sm tracking-wide z-10">
             Khusus Pondok Pesantren
           </div>
           <div class="p-6 sm:p-8">
+            <!-- Visual Header DiHorein Pesantren -->
+            <div class="relative w-full h-48 bg-gradient-to-b from-amber-100/60 via-amber-50/40 to-slate-50 rounded-xl border border-amber-200/80 p-3 mb-5 flex flex-col items-center justify-center text-center overflow-hidden">
+              <span class="text-4xl mb-1.5">🕌🌾</span>
+              <span class="text-sm font-extrabold text-amber-900 block leading-tight">Beras DiHorein</span>
+              <span class="text-[11px] font-semibold text-amber-700 mt-0.5 block">Spesialis Dapur Pesantren</span>
+              <span class="mt-2 inline-block bg-amber-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-xs">
+                Rendemen Tanak 1:2.4
+              </span>
+              <span class="absolute bottom-2 right-2 bg-white/95 backdrop-blur-sm text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded border border-slate-200 shadow-xs">
+                Karung 25 kg
+              </span>
+            </div>
+
             <div class="inline-block bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
               Mekar Melimpah • Hemat Anggaran Santri
             </div>
@@ -529,6 +538,19 @@
         <!-- Product 3: Beras Sehat Organik -->
         <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between">
           <div class="p-6 sm:p-8">
+            <!-- Visual Header Beras Sehat -->
+            <div class="relative w-full h-48 bg-gradient-to-b from-purple-100/60 via-purple-50/40 to-slate-50 rounded-xl border border-purple-200/80 p-3 mb-5 flex flex-col items-center justify-center text-center overflow-hidden">
+              <span class="text-4xl mb-1.5">🥗🍚</span>
+              <span class="text-sm font-extrabold text-purple-900 block leading-tight">Beras Merah & Hitam</span>
+              <span class="text-[11px] font-semibold text-purple-700 mt-0.5 block">Lini Gizi & Rumah Sakit</span>
+              <span class="mt-2 inline-block bg-purple-700 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-xs">
+                Indeks Glikemik Rendah (&lt;55)
+              </span>
+              <span class="absolute bottom-2 right-2 bg-white/95 backdrop-blur-sm text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded border border-slate-200 shadow-xs">
+                Kemasan Khusus
+              </span>
+            </div>
+
             <div class="inline-block bg-purple-100 text-purple-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
               Lini Kesehatan & Rumah Sakit
             </div>
