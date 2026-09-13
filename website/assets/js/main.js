@@ -73,7 +73,7 @@ function initCalculator() {
       productRec = 'Beras DiHorein Spesialis Pondok Pesantren (25 kg)';
       benefit = 'Diformulasikan khusus untuk dapur santri. Rendemen tanak mekar melimpah (1:2.4), mengenyangkan lebih lama, dan hemat biaya anggaran santri.';
     } else {
-      productRec = 'Beras Premium Ladori (25 kg / 50 kg) - Rekomendasi Resmi SPPG MBG & Horeka';
+      productRec = 'Beras Premium Ladori (25 kg) - Rekomendasi Resmi SPPG MBG & Horeka';
       benefit = 'Beras putih bersih mutu premium tanpa pemutih sintetis, pulen lezat, dan tahan lama sesuai rekomendasi standar SPPG MBG, katering, rumah makan, dan hotel.';
     }
 
@@ -202,17 +202,16 @@ function initPesantrenCalculator() {
     const dailyKg = Math.ceil((santri * 240) / 1000);
     const monthlyKg = dailyKg * 30;
     const sacks25 = Math.ceil(monthlyKg / 25);
-    const sacks50 = Math.ceil(monthlyKg / 50);
 
     if (dailyKgDisplay) dailyKgDisplay.textContent = dailyKg.toLocaleString('id-ID') + ' kg / hari';
     if (monthlyKgDisplay) monthlyKgDisplay.textContent = (monthlyKg / 1000).toFixed(1) + ' Ton / bulan (' + monthlyKg.toLocaleString('id-ID') + ' kg)';
     if (monthlySacks25Display) monthlySacks25Display.textContent = sacks25.toLocaleString('id-ID') + ' sak (25 kg)';
-    if (monthlySacks50Display) monthlySacks50Display.textContent = sacks50.toLocaleString('id-ID') + ' sak (50 kg)';
+    if (monthlySacks50Display) monthlySacks50Display.textContent = '';
 
     if (waBtn) {
       const text = `Halo Distributor Beras DiHorein, kami pengurus dapur Pondok Pesantren ingin mengajukan pasokan rutin:%0A` +
         `- Jumlah Santri: ${santri.toLocaleString('id-ID')} santri (3x makan sehari)%0A` +
-        `- Estimasi Kebutuhan Bulanan: ~${(monthlyKg/1000).toFixed(1)} Ton / bulan (${sacks25} sak 25kg atau ${sacks50} sak 50kg)%0A` +
+        `- Estimasi Kebutuhan Bulanan: ~${(monthlyKg/1000).toFixed(1)} Ton / bulan (${sacks25} sak 25kg)%0A` +
         `- Produk Pilihan: Beras DiHorein Khusus Pesantren%0A` +
         `Mohon info daftar harga grosir pasokan pondok dan pengajuan sampel uji tanak ke lokasi kami.`;
       waBtn.href = `https://wa.me/${CONFIG.waNumber}?text=${text}`;
