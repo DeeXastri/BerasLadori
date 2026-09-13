@@ -87,7 +87,7 @@
       "telephone": "+6282227420003",
       "priceRange": "$$",
       "currenciesAccepted": "IDR",
-      "paymentAccepted": "Cash, Bank Transfer",
+      "paymentAccepted": "Cash, Bank Transfer, Virtual Account, QRIS",
       "hasMap": "https://maps.google.com/?q=-7.5818,110.2868",
       "geo": {
         "@type": "GeoCoordinates",
@@ -267,6 +267,7 @@
           </a>
           <a href="/program/katering-horeka" class="hover:text-brand-700 transition">Katering & Horeka</a>
           <a href="/program/pesantren" class="hover:text-brand-700 transition">Pesantren (DiHorein)</a>
+          <a href="#pembayaran" class="hover:text-brand-700 transition">Pembayaran</a>
           <a href="#kalkulator" class="hover:text-brand-700 transition">Kalkulator</a>
           <a href="#wilayah" class="hover:text-brand-700 transition">Rute Armada</a>
           <a href="/artikel" class="hover:text-brand-700 transition">Artikel</a>
@@ -294,6 +295,7 @@
       <a href="/program/sppg-mbg" class="block py-2 text-brand-800 font-semibold">🍲 Program SPPG MBG BGN</a>
       <a href="/program/katering-horeka" class="block py-2 text-brand-800 font-semibold">👨‍🍳 Katering & Restoran Horeka</a>
       <a href="/program/pesantren" class="block py-2 text-amber-800 font-semibold">🕌 Pondok Pesantren (Beras DiHorein)</a>
+      <a href="#pembayaran" class="block py-2 text-slate-800 font-medium hover:text-brand-700">💳 Cara Bayar (Transfer, VA, QRIS)</a>
       <a href="#kalkulator" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Kalkulator Kebutuhan Tonase</a>
       <a href="#wilayah" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Jalur Rute Armada</a>
       <a href="/artikel" class="block py-2 text-slate-800 font-medium hover:text-brand-700">Informasi & Berita Beras</a>
@@ -350,11 +352,22 @@
             </a>
           </div>
 
-          <!-- Social Proof Micro Copy -->
-          <p class="text-xs text-slate-500 flex items-center gap-2">
-            <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Tersedia faktur resmi institusi & pengiriman sampel uji tanak gratis untuk katering & dapur resmi.
-          </p>
+          <!-- Social Proof & Payment Micro-Proof -->
+          <div class="space-y-2 pt-1">
+            <p class="text-xs text-slate-500 flex items-center gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span>Tersedia faktur resmi institusi & pengiriman sampel uji tanak gratis untuk katering & dapur resmi.</span>
+            </p>
+            <div class="inline-flex flex-wrap items-center gap-2 text-[11px] text-slate-600 bg-emerald-50/80 border border-emerald-200/80 px-3 py-1.5 rounded-lg">
+              <span class="font-bold text-emerald-900 flex items-center gap-1">
+                <svg class="w-3.5 h-3.5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                Metode Pembayaran Resmi:
+              </span>
+              <span class="bg-white px-2 py-0.5 rounded text-slate-700 font-semibold border border-slate-200 shadow-xs">Bank Transfer</span>
+              <span class="bg-white px-2 py-0.5 rounded text-slate-700 font-semibold border border-slate-200 shadow-xs">Virtual Account (VA) 24/7</span>
+              <span class="bg-white px-2 py-0.5 rounded text-slate-700 font-semibold border border-slate-200 shadow-xs">QRIS Instan</span>
+            </div>
+          </div>
         </div>
 
         <!-- Right Hero Visual Card -->
@@ -623,6 +636,194 @@
     </div>
   </section>
 
+  <!-- B2B Payment Systems & Trust Section -->
+  <section id="pembayaran" class="py-20 bg-slate-100/70 border-t border-slate-200 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 bg-emerald-100 text-emerald-900 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-3">
+          <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+          Transparansi & Akuntabilitas Keuangan B2B
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">Sistem Pembayaran Fleksibel & Transaksi Aman</h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Mendukung kelancaran operasional dapur katering, pondok pesantren, dan Dapur SPPG MBG dengan tiga saluran pembayaran resmi terverifikasi otomatis serta kelengkapan faktur institusi.
+        </p>
+      </div>
+
+      <!-- 3 Payment Pillar Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Card 1: Virtual Account (VA) Otomatis 24/7 -->
+        <div class="bg-white rounded-2xl p-7 border-2 border-emerald-500/80 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative group">
+          <div class="absolute -top-3.5 right-6 bg-emerald-600 text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
+            ⚡ Verifikasi Instan 24/7
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Virtual Account (VA)</h3>
+            <p class="text-xs text-brand-700 font-semibold mt-1">Otomatis Per Nomor Order / PO</p>
+            <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+              Verifikasi kilat dalam hitungan detik tanpa perlu mengirim bukti transfer manual ke admin. Nomor VA terbit spesifik untuk setiap Purchase Order (PO) sehingga armada gudang langsung memproses muatan dan keberangkatan truk secara tepat waktu.
+            </p>
+
+            <!-- Key Features Bullet -->
+            <div class="mt-6 pt-5 border-t border-slate-100 space-y-2.5 text-xs text-slate-700">
+              <div class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Otomatis sinkron ke antrean muat gudang</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Bebas antre verifikasi konfirmasi kasir</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Mendukung seluruh m-Banking & ATM besar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bank Badges Supported -->
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Didukung Jaringan Bank Nasional:</span>
+            <div class="flex flex-wrap gap-1.5 text-[11px] font-semibold text-slate-700">
+              <span class="bg-slate-100 px-2 py-1 rounded">BCA VA</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">Mandiri VA</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BRI VA</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BNI VA</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">Permata</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BSI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Corporate Bank Transfer -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative group">
+          <div class="absolute -top-3.5 right-6 bg-slate-800 text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
+            🏛️ Prioritas Partai Besar
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-slate-100 text-slate-800 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Bank Transfer Perusahaan</h3>
+            <p class="text-xs text-slate-500 font-semibold mt-1">Rekening Resmi Berbadan Hukum</p>
+            <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+              Pilihan standar bagi bendahara instansi dinas, yayasan pondok pesantren, manajer purchasing hotel, dan pemilik katering skala tonase besar. Pembayaran ditujukan langsung ke rekening bank resmi berbadan hukum dengan fasilitas kliring BI-FAST & RTGS.
+            </p>
+
+            <!-- Key Features Bullet -->
+            <div class="mt-6 pt-5 border-t border-slate-100 space-y-2.5 text-xs text-slate-700">
+              <div class="flex items-start gap-2">
+                <span class="text-brand-700 font-bold">✓</span>
+                <span>Faktur pajak, invoice & kwitansi berstempel resmi</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-brand-700 font-bold">✓</span>
+                <span>Pencatatan mutasi perbankan transparan untuk SPJ</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-brand-700 font-bold">✓</span>
+                <span>Mendukung transaksi bernilai tinggi tanpa limitasi retail</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bank Badges Supported -->
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Rekening Perusahaan Tersedia:</span>
+            <div class="flex flex-wrap gap-1.5 text-[11px] font-semibold text-slate-700">
+              <span class="bg-slate-100 px-2 py-1 rounded">BCA Giro</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">Mandiri Bisnis</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BRI Giro</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BNI</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BSI Maslahat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: QRIS Dinamis & Statis -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative group">
+          <div class="absolute -top-3.5 right-6 bg-gold-600 text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
+            📱 Praktis di Lokasi
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-amber-50 text-gold-700 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">QRIS Dinamis & Statis</h3>
+            <p class="text-xs text-gold-700 font-semibold mt-1">Pelunasan COD Non-Tunai Saat Truk Tiba</p>
+            <p class="text-sm text-slate-600 mt-4 leading-relaxed">
+              Solusi favorit bagi koki, kepala dapur, dan pemilik warung makan yang menyukai pelunasan langsung di lokasi saat beras selesai dibongkar dari truk armada kami. Cukup scan barcode dari smartphone tanpa repot menghitung uang tunai lusuh atau mencari kembalian.
+            </p>
+
+            <!-- Key Features Bullet -->
+            <div class="mt-6 pt-5 border-t border-slate-100 space-y-2.5 text-xs text-slate-700">
+              <div class="flex items-start gap-2">
+                <span class="text-gold-600 font-bold">✓</span>
+                <span>Bebas uang palsu & bebas repot uang kembalian</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-gold-600 font-bold">✓</span>
+                <span>Bukti bayar digital otomatis masuk ke kasir & driver</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-gold-600 font-bold">✓</span>
+                <span>Bisa scan via seluruh m-Banking & Dompet Digital</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Apps Badges Supported -->
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Kompatibel Semua Pembayaran Digital:</span>
+            <div class="flex flex-wrap gap-1.5 text-[11px] font-semibold text-slate-700">
+              <span class="bg-slate-100 px-2 py-1 rounded">BCA Mobile</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">Livin'</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">BRImo</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">GoPay</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">OVO</span>
+              <span class="bg-slate-100 px-2 py-1 rounded">Dana</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trust & Compliance Banner -->
+      <div class="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center shrink-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-base">Jaminan Keamanan Transaksi & Kepatuhan Pajak Resmi</h4>
+            <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+              Setiap transaksi disertai nota resmi, bukti timbangan digital, stempel distributor berbadan hukum, dan faktur pajak. Tersedia skema pembayaran berjangka (<em>Terms of Payment</em> / TOP) untuk instansi & katering kontrak rutin.
+            </p>
+          </div>
+        </div>
+        <a href="https://wa.me/6282227420003?text=Halo%20Distributor%20Beras%20Ladori%2C%20saya%20ingin%20tanya%20prosedur%20pembayaran%20resmi%20dan%20faktur%20pajak." target="_blank" class="shrink-0 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition shadow-sm inline-flex items-center gap-2">
+          <span>Konsultasi Faktur & Pembayaran</span>
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.17.7 4.19 1.9 5.86L2 22l4.31-1.85C7.92 21.27 9.89 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Interactive Tonase Calculator -->
   <section id="kalkulator" class="py-20 bg-slate-900 text-white relative overflow-hidden">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -674,6 +875,12 @@
           <div class="text-slate-400 font-bold uppercase tracking-wider text-[11px]">Rekomendasi Varian:</div>
           <div id="calc-recommendation" class="text-sm font-bold text-white">Beras Premium Ladori (25 kg) - Rekomendasi Resmi SPPG MBG & Horeka</div>
           <p id="calc-benefit" class="text-slate-400 mt-1">Beras putih bersih mutu premium tanpa pemutih sintetis, pulen lezat, dan tahan lama sesuai rekomendasi standar SPPG MBG, katering, rumah makan, dan hotel.</p>
+        </div>
+
+        <!-- Catatan Pembayaran & Administrasi B2B -->
+        <div class="flex items-center gap-3 bg-slate-900/80 p-3.5 rounded-xl border border-slate-700/80 text-xs text-slate-300">
+          <span class="text-emerald-400 text-base shrink-0">💳</span>
+          <span>Pesanan tonase dapat dibayar melalui <strong>Virtual Account Otomatis 24/7</strong>, <strong>Corporate Bank Transfer</strong>, atau <strong>QRIS</strong> dengan kelengkapan faktur resmi.</span>
         </div>
 
         <!-- Tombol Kirim ke WhatsApp -->
@@ -814,6 +1021,28 @@
             Ya, kami berbadan hukum resmi dengan kelengkapan NIB, NPWP, stempel resmi distributor, dan surat jalan penimbangan digital. Sangat memudahkan pelaporan administrasi SPJ dapur SPPG BGN maupun katering perusahaan.
           </div>
         </div>
+
+        <!-- FAQ 4 -->
+        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-700 transition">
+            <span>Bagaimana metode dan alur pembayaran pengadaan beras di Beras Ladori?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+            Kami menyediakan 3 saluran pembayaran resmi yang fleksibel: (1) <strong>Virtual Account (VA)</strong> yang terbit otomatis dan unik per nomor Purchase Order (PO) sehingga terverifikasi instan 24/7 tanpa perlu kirim bukti transfer WhatsApp, (2) <strong>Bank Transfer Rekening Perusahaan</strong> (BCA, Mandiri, BRI, BNI, BSI) dengan fasilitas kliring BI-FAST & RTGS untuk transaksi partai besar, serta (3) <strong>QRIS Dinamis</strong> untuk kemudahan pelunasan saat armada truk tiba di loading dock dapur Anda (COD non-tunai) maupun saat pengambilan langsung di gudang Muntilan dan Magelang Raya.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-accordion-btn w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-700 transition">
+            <span>Apakah tersedia sistem pembayaran berjangka (Terms of Payment / TOP) untuk instansi atau katering rutin?</span>
+            <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-accordion-content hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+            Ya. Untuk instansi kedinasan, unit Dapur Satuan Pelayanan Pemenuhan Gizi (SPPG) Makan Bergizi Gratis (MBG), yayasan pondok pesantren, hotel berbintang, dan katering rekanan berbadan hukum dengan kontrak pasokan rutin terverifikasi, kami menyediakan skema pembayaran berjangka (TOP 7 hingga 14 hari) setelah proses verifikasi dokumen legalitas usaha dan penandatanganan kesepakatan pasokan resmi.
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -890,7 +1119,29 @@
 
       </div>
 
-      <div class="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+      <!-- Footer Payment & Security Trust Badges -->
+      <div class="mt-12 pt-8 border-t border-slate-800">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-xs text-slate-400">
+            <span class="font-bold text-slate-200">Metode Pembayaran Resmi:</span>
+            <span class="bg-slate-800/80 px-2.5 py-1 rounded text-slate-300 border border-slate-700">Bank Transfer Perusahaan</span>
+            <span class="bg-slate-800/80 px-2.5 py-1 rounded text-emerald-300 border border-slate-700">Virtual Account (VA) 24/7</span>
+            <span class="bg-slate-800/80 px-2.5 py-1 rounded text-amber-300 border border-slate-700">QRIS Non-Tunai</span>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-slate-400">
+            <span class="inline-flex items-center gap-1 text-emerald-400 font-semibold">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+              Faktur Resmi Berbadan Hukum
+            </span>
+            <span class="text-slate-600">|</span>
+            <span class="inline-flex items-center gap-1 text-slate-300">
+              🔒 Transaksi Aman Terenkripsi
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-slate-800/60 text-center text-xs text-slate-500">
         &copy; 2026 Beras Ladori (BerasLadori.com). Hak Cipta Dilindungi Undang-Undang.
       </div>
     </div>

@@ -27,6 +27,12 @@
 - **Pasokan Dapur Pondok Pesantren & Asrama**: Beras DiHorein mekar hemat porsi santri, tahan basi >20 jam di bakul asrama, harga satu level di bawah Ladori, armada drop langsung gudang pondok.
 - **Layanan Gratis Ongkir**: Tersedia fasilitas bebas biaya kirim armada truk/pickup untuk pesanan minimal 10-20 karung pada rute reguler harian.
 
+## Metode Pembayaran Resmi B2B
+1. **Virtual Account (VA) 24/7**: Terbit otomatis dan spesifik per Purchase Order (PO) / nomor pesanan. Verifikasi instan tanpa perlu kirim resi manual via WhatsApp. Mendukung jaringan BCA, Mandiri, BRI, BNI, Permata, dan BSI.
+2. **Bank Transfer Rekening Perusahaan**: Ditujukan langsung ke rekening bank resmi berbadan hukum distributor dengan kliring BI-FAST & RTGS untuk tonase besar.
+3. **QRIS Dinamis & Statis**: Pelunasan praktis saat armada truk tiba di loading dock pemesan (COD non-tunai) maupun saat ambil mandiri di gudang Muntilan dan Magelang Raya. Kompatibel dengan semua m-Banking dan e-Wallet berizin Bank Indonesia.
+4. **Legalitas & Kepatuhan Transaksi**: Dilengkapi faktur pajak resmi, kwitansi basah/digital berstempel resmi perusahaan, surat jalan timbangan digital, serta fasilitas pembayaran berjangka (Terms of Payment / TOP) khusus instansi, yayasan pesantren, dan mitra katering kontrak rutin.
+
 ## Tautan Resmi Halaman
 - [Beranda & Katalog Produk](https://www.berasladori.com/)
 - [Halaman Produk Resmi Beras Ladori 25 kg](https://www.berasladori.com/produk/beras-ladori-25kg)
