@@ -22,6 +22,9 @@ urls = [
     'https://www.berasladori.com/program/pesantren',
     'https://www.berasladori.com/assets/images/beras-dihorein.webp',
     'https://www.berasladori.com/assets/images/beras-dihorein-600.webp',
+    'https://www.berasladori.com/assets/images/beras-merah.webp',
+    'https://www.berasladori.com/assets/images/beras-merah-600.webp',
+    'https://www.berasladori.com/artikel/supplier-beras-rumah-sakit',
     'https://www.berasladori.com/sitemap.xml'
 ]
 
