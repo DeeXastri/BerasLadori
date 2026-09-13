@@ -10,7 +10,7 @@
 
   <!-- 
     CATATAN PELUNCURAN BERTAHAP (PHASED ROLLOUT):
-    Subhalaman (produk, tentang, program, wilayah, artikel) saat ini berstatus 'noindex, follow'
+    Subhalaman (produk, tentang, program, wilayah, 34 artikel B2B) saat ini berstatus 'noindex, follow'
     sesuai instruksi agar terhindar dari broken link dan memastikan seluruh materi matang 100%.
     URL berikut akan dimasukkan kembali ke sitemap saat status dinaikkan menjadi 'index, follow'.
 
@@ -34,5 +34,35 @@
     - https://www.berasladori.com/artikel/standar-beras-dapur-sppg-mbg
     - https://www.berasladori.com/artikel/peluang-usaha-grosir-beras-kelontong
     - https://www.berasladori.com/artikel/cara-membedakan-beras-pulen-alami-bebas-pemutih
+    - https://www.berasladori.com/artikel/cara-memilih-supplier-beras-b2b
+    - https://www.berasladori.com/artikel/pertanyaan-sebelum-memilih-supplier-beras
+    - https://www.berasladori.com/artikel/uji-sampel-beras-sebelum-kontrak
+    - https://www.berasladori.com/artikel/cara-membandingkan-supplier-beras
+    - https://www.berasladori.com/artikel/total-cost-beras-dapur-komersial
+    - https://www.berasladori.com/artikel/cara-menghitung-cooking-yield-beras
+    - https://www.berasladori.com/artikel/menentukan-moq-dan-frekuensi-pengiriman-beras
+    - https://www.berasladori.com/artikel/safety-stock-beras-dapur-komersial
+    - https://www.berasladori.com/artikel/reorder-point-beras
+    - https://www.berasladori.com/artikel/sop-penerimaan-beras-dapur-b2b
+    - https://www.berasladori.com/artikel/checklist-qc-beras-masuk-gudang
+    - https://www.berasladori.com/artikel/cara-sampling-beras-karung
+    - https://www.berasladori.com/artikel/cara-menggunakan-moisture-meter-beras
+    - https://www.berasladori.com/artikel/beras-kepala-broken-menir-untuk-purchasing
+    - https://www.berasladori.com/artikel/cara-menguji-konsistensi-beras-antar-batch
+    - https://www.berasladori.com/artikel/cara-membaca-coa-beras
+    - https://www.berasladori.com/artikel/traceability-dan-nomor-batch-beras
+    - https://www.berasladori.com/artikel/kebijakan-komplain-supplier-beras
+    - https://www.berasladori.com/artikel/memilih-supplier-beras-untuk-sppg-mbg
+    - https://www.berasladori.com/artikel/memilih-supplier-beras-pondok-pesantren
+    - https://www.berasladori.com/artikel/supplier-beras-catering-food-cost-konsistensi
+    - https://www.berasladori.com/artikel/supplier-beras-hotel-restoran
+    - https://www.berasladori.com/artikel/supplier-beras-rumah-sakit
+    - https://www.berasladori.com/artikel/grosir-beras-minimarket-warung-sembako
+    - https://www.berasladori.com/artikel/supplier-beras-rumah-makan
+    - https://www.berasladori.com/artikel/koridor-pasokan-beras-muntilan-magelang-sleman-jogja
+    - https://www.berasladori.com/artikel/panduan-pengadaan-beras-catering-jogja-sleman
+    - https://www.berasladori.com/artikel/panduan-pengadaan-beras-sppg-jogja-sleman-magelang
+    - https://www.berasladori.com/artikel/pengadaan-beras-pesantren-magelang-temanggung
+    - https://www.berasladori.com/artikel/mengapa-jadwal-rute-supplier-beras-penting
   -->
 </urlset>

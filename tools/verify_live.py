@@ -7,6 +7,12 @@ urls = [
     'https://www.berasladori.com/produk/beras-ladori-25kg',
     'https://www.berasladori.com/tentang/beras-ladori',
     'https://www.berasladori.com/wilayah/magelang',
+    'https://www.berasladori.com/artikel',
+    'https://www.berasladori.com/artikel/cara-memilih-supplier-beras-b2b',
+    'https://www.berasladori.com/artikel/cara-menghitung-cooking-yield-beras',
+    'https://www.berasladori.com/artikel/sop-penerimaan-beras-dapur-b2b',
+    'https://www.berasladori.com/artikel/memilih-supplier-beras-untuk-sppg-mbg',
+    'https://www.berasladori.com/artikel/koridor-pasokan-beras-muntilan-magelang-sleman-jogja',
     'https://www.berasladori.com/sitemap.xml'
 ]
 

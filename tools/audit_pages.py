@@ -62,7 +62,7 @@ for path in sorted(html_files):
 print('\n' + ('='*50))
 if all_pass:
     print(f'ALL {len(html_files)} PAGES PASSED 100% AUDIT CHECKS!')
-    print('Policy: ONLY Homepage is Indexable. All 20 Subpages are strictly protected with noindex, follow.')
+    print(f'Policy: ONLY Homepage is Indexable. All {len(html_files)-1} Subpages are strictly protected with noindex, follow.')
 else:
     print('SOME PAGES FAILED AUDIT!')
 print('='*50)
