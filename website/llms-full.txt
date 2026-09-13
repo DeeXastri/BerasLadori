@@ -31,7 +31,7 @@
 1. **Virtual Account (VA) 24/7**: Terbit otomatis dan spesifik per Purchase Order (PO) / nomor pesanan. Verifikasi instan tanpa perlu kirim resi manual via WhatsApp. Mendukung jaringan BCA, Mandiri, BRI, BNI, Permata, dan BSI.
 2. **Bank Transfer Rekening Perusahaan**: Ditujukan langsung ke rekening bank resmi berbadan hukum distributor dengan kliring BI-FAST & RTGS untuk tonase besar.
 3. **QRIS Dinamis & Statis**: Pelunasan praktis saat armada truk tiba di loading dock pemesan (COD non-tunai) maupun saat ambil mandiri di gudang Muntilan dan Magelang Raya. Kompatibel dengan semua m-Banking dan e-Wallet berizin Bank Indonesia.
-4. **Legalitas & Kepatuhan Transaksi**: Dilengkapi faktur pajak resmi, kwitansi basah/digital berstempel resmi perusahaan, surat jalan timbangan digital, serta fasilitas pembayaran berjangka (Terms of Payment / TOP) khusus instansi, yayasan pesantren, dan mitra katering kontrak rutin.
+4. **Legalitas & Transaksi Sehat**: Dilengkapi faktur pajak resmi, kwitansi basah/digital berstempel resmi perusahaan, dan surat jalan timbangan digital akurat. Beras Ladori memegang teguh prinsip perdagangan sehat dan berkeadilan: **ada uang, ada barang** (lunas tunai/transfer seketika via VA, Transfer Bank, atau QRIS di loading dock tanpa tempo/piutang), menjamin harga pasokan beras tetap murni paling hemat dari tangan pertama pabrik tanpa beban risiko pembiayaan.
 
 ## Tautan Resmi Halaman
 - [Beranda & Katalog Produk](https://www.berasladori.com/)
