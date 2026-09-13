@@ -166,7 +166,10 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Beras DiHorein Spesialis Pondok Pesantren 25 kg",
-      "image": "https://www.berasladori.com/assets/images/og-image.jpg",
+      "image": [
+        "https://www.berasladori.com/assets/images/beras-dihorein.webp",
+        "https://www.berasladori.com/assets/images/og-image.jpg"
+      ],
       "description": "Beras khusus pondok pesantren dan asrama santri dengan rendemen tanak melimpah 1:2.4, mengenyangkan lebih lama, dan sangat hemat anggaran belanja beras pesantren.",
       "sku": "DIHOREIN-25KG",
       "brand": {"@type": "Brand", "name": "DiHorein"},
@@ -495,16 +498,21 @@
             Khusus Pondok Pesantren
           </div>
           <div class="p-6 sm:p-8">
-            <!-- Visual Header DiHorein Pesantren -->
-            <div class="relative w-full h-48 bg-gradient-to-b from-amber-100/60 via-amber-50/40 to-slate-50 rounded-xl border border-amber-200/80 p-3 mb-5 flex flex-col items-center justify-center text-center overflow-hidden">
-              <span class="text-4xl mb-1.5">🕌🌾</span>
-              <span class="text-sm font-extrabold text-amber-900 block leading-tight">Beras DiHorein</span>
-              <span class="text-[11px] font-semibold text-amber-700 mt-0.5 block">Spesialis Dapur Pesantren</span>
-              <span class="mt-2 inline-block bg-amber-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-xs">
-                Rendemen Tanak 1:2.4
-              </span>
-              <span class="absolute bottom-2 right-2 bg-white/95 backdrop-blur-sm text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded border border-slate-200 shadow-xs">
-                Karung 25 kg
+            <!-- Packshot Image Container Beras DiHorein (Anti-Overflow & Bulletproof Max-Height) -->
+            <div class="relative w-full h-48 bg-gradient-to-b from-amber-50/70 via-emerald-50/30 to-slate-50 rounded-xl border border-amber-200/90 p-3 mb-5 flex items-center justify-center overflow-hidden">
+              <picture class="w-full h-full flex items-center justify-center overflow-hidden">
+                <source srcset="/assets/images/beras-dihorein-600.webp" type="image/webp">
+                <img src="/assets/images/beras-dihorein-600.webp" 
+                     alt="Kemasan resmi Beras DiHorein Karung 25 kg dan 1 kg spesialis dapur pondok pesantren dan asrama santri" 
+                     width="600" 
+                     height="749" 
+                     loading="lazy" 
+                     decoding="async" 
+                     class="w-auto object-contain drop-shadow-md transition-transform duration-300 hover:scale-105"
+                     style="max-height: 160px; max-width: 100%; width: auto; height: auto; object-fit: contain;">
+              </picture>
+              <span class="absolute bottom-2 right-2 bg-white/95 backdrop-blur-sm text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-200 shadow-xs">
+                diHORein® Aja • Halal ID
               </span>
             </div>
 
